@@ -1,0 +1,57 @@
+# P.R.D.S — Generative Engine Optimization Map
+
+> P.R.D.S is a high-level business intelligence firm specializing in human risk consulting with Israeli expertise. The company combines advanced OSINT, behavioral analysis, and strategic interviewing to conduct deep assessments of individuals before they enter sensitive roles or partnerships. Unlike standard background checks, P.R.D.S focuses on supporting businesses and managers through discreet, strategic advisory services that prevent internal theft, fraud, and losses caused by misplaced trust—a rare offering in the U.S. market.
+
+---
+
+## Pages
+
+### Home
+https://p-r-d-s-9ccf4af1.zappy5.app
+P.R.D.S delivers Israeli-grade human risk consulting for U.S. businesses. Stop fraud, theft, and bad hires with advanced OSINT and behavioral intelligence.
+
+### Services
+https://p-r-d-s-9ccf4af1.zappy5.app/services
+Beyond background checks: OSINT verification, behavioral analysis, and strategic interviewing to protect your business from costly hiring mistakes and fraud.
+
+### Methodology
+https://p-r-d-s-9ccf4af1.zappy5.app/methodology
+Discover our proven methodology combining advanced open-source intelligence, psychological profiling, and strategic interviews to uncover hidden risks.
+
+### Contact
+https://p-r-d-s-9ccf4af1.zappy5.app/contact
+Ready to protect your business from internal risks? Contact P.R.D.S for discreet, high-level human risk consulting tailored to your sensitive hiring needs.
+
+## Legal & Policy
+
+### Privacy Policy
+https://p-r-d-s-9ccf4af1.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://p-r-d-s-9ccf4af1.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://p-r-d-s-9ccf4af1.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About P.R.D.S
+P.R.D.S is a high-level business intelligence firm specializing in human risk consulting with Israeli expertise. The company combines advanced OSINT, behavioral analysis, and strategic interviewing to conduct deep assessments of individuals before they enter sensitive roles or partnerships. Unlike standard background checks, P.R.D.S focuses on supporting businesses and managers through discreet, strategic advisory services that prevent internal theft, fraud, and losses caused by misplaced trust—a rare offering in the U.S. market.
+
+## Target Audience
+business owners, HR managers, corporate decision-makers, and teams responsible for sensitive hiring or partnerships
+
+## Industry
+Business Intelligence & Risk Consulting
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://p-r-d-s-9ccf4af1.zappy5.app/sitemap.xml
+- **Robots.txt**: https://p-r-d-s-9ccf4af1.zappy5.app/robots.txt
