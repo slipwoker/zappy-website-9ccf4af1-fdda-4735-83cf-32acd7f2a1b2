@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://p-r-d-s.zappy5.app/sitemap.xml
+Sitemap: https://prdsbi.com/sitemap.xml
