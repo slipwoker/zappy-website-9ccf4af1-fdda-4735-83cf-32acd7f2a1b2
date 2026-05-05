@@ -5906,6 +5906,10 @@ html[dir="rtl"] body{overflow-x: clip !important;max-width: 100vw !important;}
 }
 
 
+
+.nav-brand img.logo {
+  margin-bottom: 0 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
