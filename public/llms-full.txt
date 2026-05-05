@@ -65,9 +65,21 @@ P.R.D.S - Business Intelligence
 
 
 
+
+
+
 - Services
 - Methodology
 - Cases
+
+
+
+
+
+
+
+
+עברית
 
 
 
@@ -438,9 +450,21 @@ P.R.D.S - Business Intelligence
 
 
 
+
+
+
 - Services
 - Methodology
 - Cases
+
+
+
+
+
+
+
+
+עברית
 
 
 
@@ -817,9 +841,21 @@ Methodology
 
 
 
+
+
+
 - Services
 - Methodology
 - Cases
+
+
+
+
+
+
+
+
+עברית
 
 
 
@@ -1163,9 +1199,21 @@ P.R.D.S - Business Intelligence
 
 
 
+
+
+
 - Services
 - Methodology
 - Cases
+
+
+
+
+
+
+
+
+עברית
 
 
 
@@ -1253,7 +1301,7 @@ Message
 
 
 
-I have read and agree to the  Terms & Conditions  and  Privacy Policy
+I have read and agree to the   Terms & Conditions   and   Privacy Policy
 
 
 
@@ -1427,9 +1475,21 @@ P.R.D.S - Business Intelligence
 
 
 
+
+
+
 - Services
 - Methodology
 - Cases
+
+
+
+
+
+
+
+
+עברית
 
 
 
@@ -1667,9 +1727,21 @@ P.R.D.S - Business Intelligence
 
 
 
+
+
+
 - Services
 - Methodology
 - Cases
+
+
+
+
+
+
+
+
+עברית
 
 
 
@@ -1913,9 +1985,21 @@ P.R.D.S - Business Intelligence
 
 
 
+
+
+
 - Services
 - Methodology
 - Cases
+
+
+
+
+
+
+
+
+עברית
 
 
 
@@ -2213,9 +2297,21 @@ Case Studies
 
 
 
+
+
+
 - Services
 - Methodology
 - Cases
+
+
+
+
+
+
+
+
+עברית
 
 
 
