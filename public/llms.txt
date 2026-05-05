@@ -57,6 +57,7 @@ Information about WCAG compliance and accessibility features.
 - Fields:
   - `name` (text, required)
   - `email` (email, required)
+  - `phone_prefix` (select)
   - `phone` (tel)
   - `message` (textarea, required)
   - `privacy_consent` (checkbox, required)
