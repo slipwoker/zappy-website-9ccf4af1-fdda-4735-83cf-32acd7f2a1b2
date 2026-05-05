@@ -68,7 +68,6 @@ P.R.D.S - Business Intelligence
 - Services
 - Methodology
 - Cases
-- Beverage
 
 
 
@@ -442,7 +441,6 @@ P.R.D.S - Business Intelligence
 - Services
 - Methodology
 - Cases
-- Beverage
 
 
 
@@ -822,7 +820,6 @@ Methodology
 - Services
 - Methodology
 - Cases
-- Beverage
 
 
 
@@ -1169,7 +1166,6 @@ P.R.D.S - Business Intelligence
 - Services
 - Methodology
 - Cases
-- Beverage
 
 
 
@@ -1434,7 +1430,6 @@ P.R.D.S - Business Intelligence
 - Services
 - Methodology
 - Cases
-- Beverage
 
 
 
@@ -1675,7 +1670,6 @@ P.R.D.S - Business Intelligence
 - Services
 - Methodology
 - Cases
-- Beverage
 
 
 
@@ -1922,7 +1916,6 @@ P.R.D.S - Business Intelligence
 - Services
 - Methodology
 - Cases
-- Beverage
 
 
 
@@ -2223,7 +2216,6 @@ Case Studies
 - Services
 - Methodology
 - Cases
-- Beverage
 
 
 
@@ -2413,27 +2405,33 @@ The assessment identified a coordinated arrangement between two employees and an
 
 03
 
-### Sensitive Hire Assessment: Technology Company
+### Inventory Loss Investigation: Leading Beverage Company
 
 
-A technology company preparing to onboard a Chief Information Security Officer engaged P.R.D.S to conduct a comprehensive human risk assessment. The role would provide unrestricted access to proprietary systems and client data across multiple enterprise accounts.
+The owner of a leading beverage company discovered that a significant quantity of alcohol products had simply vanished — without witnesses or clear traces. The financial exposure was severe, but the harder burden was the creeping suspicion toward his own team: people he had built his business with and trusted. That suspicion was quietly poisoning the day-to-day atmosphere long before any formal investigation began.
 
 
 Situation
 
-The finalist candidate had cleared all technical evaluations and a standard background check. Leadership required a higher level of confidence given the sensitivity of the role. Specific concerns centered on the candidate's network of prior associations and an ambiguous departure from a previous employer.
+With no witnesses and no obvious trail, the owner faced a painful question: could someone inside the organization be responsible? The uncertainty was not merely financial — it was personal. The suspicion cast over his staff was reshaping relationships and eroding the culture he had spent years building. A definitive, evidence-based answer was the only path to resolution.
 
 
 
 The Inquiry
 
-P.R.D.S applied Israeli-developed behavioral interviewing methodology alongside a structured OSINT review of the candidate's professional history, public digital footprint, and known associations. The assessment was conducted in parallel with the final offer stage to avoid process disruption.
+The investigation team was deployed without prior assumptions and began a systematic reconstruction of events. The process included an end-to-end review of the entire production workflow, analysis of operational data across multiple production cycles, and a close physical examination of the environment in which the losses had occurred.
+
+
+
+Findings
+
+The investigation determined that no human misconduct had taken place. Two small filling heads on the bottling machine had suffered minor damage — imperceptible during active production, yet sufficient to cause consistent leakage during routine work breaks. Due to the layout of the production area, the leaked liquid was absorbed and drained without leaving any visible trace. The fault had accumulated silently over months before the numerical discrepancies became apparent.
 
 
 
 Outcome
 
-The assessment returned a favorable profile with one qualified advisory note regarding a prior association that warranted ongoing monitoring. The client proceeded with the hire and implemented a structured access-review protocol for the first 90 days. No adverse incidents occurred. The engagement established an ongoing advisory relationship.
+When the findings were presented, the owner's relief was immediate and profound — not only because the financial picture was now clear, but because he could look at his people again without the corrosive doubt that had taken hold. The case underscores a principle central to P.R.D.S engagements: not every investigation ends with a guilty party. Sometimes the most valuable work is what allows a leader to say with confidence — "It wasn't my people."
 
 
 
@@ -2510,501 +2508,6 @@ Of combined Israeli intelligence and business risk consulting expertise informin
 Every partnership, hire, and strategic decision carries risk. P.R.D.S brings Israeli-trained intelligence methodology to the boardroom—so you act on verified insight, not assumption. Let's discuss what a discreet assessment could mean for your organization.
 
 Request a Confidential Consultation
-
-
-
-
-
-
-
-
-
-Empowering decisions through intelligence and insight.
-
-
-
-
-
-### Quick Links
-
-
-- Services
-
-- Methodology
-
-- Contact
-
-
-
-
-
-
-### Contact Us
-
-- info@prdsbi.com
-- Israel, United States
-
-
-
-
-
-### Connect With Us
-
-
-
-
-
-
-
-
-
-
-
-
-© 2026 P.R.D.S - Business Intelligence. All rights reserved.
-
-
-
-
-Privacy Policy
-•
-Terms & Conditions
-•
-Accessibility
-
-Generated by Zappy
-
----
-
-## Case Study — Beverage Loss Investigation
-
-URL: https://prdsbi.com/case-studies/beverage-loss-investigation
-Description: P.R.D.S - Business Intelligence - Case Study — Beverage Loss Investigation
-
-Case Study — Beverage Loss Investigation
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- Services
-- Methodology
-- Cases
-- Beverage
-
-
-
-Contact
-
-
-
-
-
-
-
-
-
-
-
-Case Study
-
-# Beverage LossInvestigation
-
-
-A multi-site retail chain engaged P.R.D.S following a pattern of unexplained inventory discrepancies across three distribution points—pointing to internal exposure and systemic trust failure.
-
-
-Using a combination of behavioral analysis, discreet OSINT profiling, and structured strategic interviewing, our team identified the root cause within 18 days—without operational disruption or legal exposure to the client.
-
-
-
-Industry
-Beverage Distribution & Retail
-
-
-
-Investigation Type
-Internal Theft & Fraud Assessment
-
-
-
-Duration
-18 Days
-
-
-
-
-
-
-
-
-
-
-Confidential Record
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## When the Numbers Don't Add Up
-
-
-A regional beverage distributor approached P.R.D.S with a problem they couldn't explain through spreadsheets alone. Inventory shortfalls had been accumulating for over eight months—subtle at first, then impossible to ignore. The losses weren't catastrophic in any single week, but across a fiscal quarter they had eroded nearly $140,000 in product value. Standard audits had cleared the books. Management suspected something more deliberate.
-
-
-The challenge wasn't simply financial. It was relational. The people most likely involved were long-tenured employees—individuals trusted with warehouse access, delivery routes, and supplier relationships. Any misstep in the investigation risked destroying morale, triggering legal exposure, or tipping off the very individuals responsible. The client needed more than an audit. They needed intelligence.
-
-
-P.R.D.S was engaged to conduct a discreet, structured assessment of the operational environment—mapping behavioral patterns, interview signals, and access histories to identify where trust had been exploited and by whom. What followed was a methodical process that combined OSINT research, behavioral interviewing, and cross-referencing of logistical records to surface evidence that internal controls had missed entirely.
-
-
-
-
-
-
-
-### Financial Exposure
-
-
-Over $140,000 in unaccounted inventory loss accumulated across eight months—initially masked by routine variance tolerances and manual reconciliation gaps.
-
-
-
-
-### Internal Trust at Stake
-
-
-The suspected individuals held long-standing roles with direct access to supply chain operations. Preserving team integrity while gathering evidence required exceptional discretion.
-
-
-
-
-### Urgency for Evidence
-
-
-Standard audits had yielded no actionable findings. The client required structured intelligence methods capable of producing defensible, documented conclusions under legal scrutiny.
-
-
-
-
-
-
-
-
-
-
-
-
-
-Investigative Methodology
-
-## How the Investigation Was Conducted
-
-
-Each engagement begins with structured decomposition — breaking a complex loss scenario into discrete, auditable components. This case applied a four-phase evidence-led methodology designed to surface anomalies that routine audits consistently miss.
-
-
-
-
-All findings are grounded in verifiable data, physical observation, and cross-referenced operational records — not inference alone.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Phase 01
-
-### Production Reconstruction
-
-
-We rebuilt the facility's full production timeline from source records — purchase orders, batch logs, and shift reports — to establish a verified baseline of what was produced, when, and in what quantities. Discrepancies between reported output and documented inputs formed the initial evidence layer.
-
-
-
-
-
-
-
-
-
-
-
-Phase 02
-
-### Multi-Cycle Data Review
-
-
-Inventory and sales data were analyzed across multiple operational cycles — not a single snapshot. Patterns of loss, timing of anomalies, and variance in shrinkage rates were mapped across weeks to distinguish systemic issues from isolated incidents and to identify recurrence windows.
-
-
-
-
-
-
-
-
-
-
-
-Phase 03
-
-### Physical Environment Inspection
-
-
-On-site assessment of storage areas, distribution points, and access controls was conducted to identify structural vulnerabilities. This included reviewing camera coverage gaps, lock-and-key protocols, and the physical flow of product from production through to final dispatch — a critical step that data analysis alone cannot replace.
-
-
-
-
-
-
-
-
-
-
-Phase 04
-
-### Component-Level Findings
-
-
-Rather than delivering a broad loss estimate, findings were broken down by component: which product lines, which shifts, which access points, and which personnel categories were implicated. This granular approach allowed the client to take targeted corrective action rather than broad, disruptive operational changes.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Investigation Findings
-
-
-## What the Assessment Revealed
-
-
-A structured on-site analysis of the production environment identified three distinct mechanical and environmental conditions contributing to consistent volume loss. None of the findings pointed to employee misconduct, intentional diversion, or theft.
-
-
-
-
-
-
-### Damaged Filling Heads
-
-
-Wear and micro-fractures in two of the six filling heads caused inconsistent valve closure, resulting in measurable overfill and intermittent drip loss during active production cycles. The damage was gradual and not flagged during routine maintenance intervals.
-
-
-
-
-
-
-
-### Leakage During Routine Pauses
-
-
-During scheduled line pauses and shift transitions, residual pressure in the supply lines continued to push product through partially-seated valves. This created a recurring, low-volume loss event that accumulated significantly across a standard production week.
-
-
-
-
-
-
-
-### Invisible Drainage via Floor Design
-
-
-The facility's floor slope and integrated drainage channels routed spilled product directly to the waste drain before it could be observed or measured by staff. The environmental design effectively concealed the true scale of ongoing losses from day-to-day operational oversight.
-
-
-
-
-
-
-
-The investigation concluded with documented certainty: the losses were attributable exclusively to equipment failure and environmental factors. No evidence of theft, diversion, or employee misuse was identified. The client was advised on targeted maintenance remediation and revised monitoring protocols.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## What This Investigation Actually Meant
-
-
-The financial recovery mattered. But the more lasting outcome was something harder to quantify — the restoration of a working environment where trust could function again. For this business owner, the investigation did not end with a termination or a legal filing. It ended with clarity.
-
-
-When leadership operates under a cloud of unresolved suspicion, every interaction is filtered through doubt. Decisions slow down. Relationships calcify. The cost of that ambient mistrust is real, even when it never appears on a balance sheet. Resolving it — definitively — is one of the most consequential things an advisory engagement can deliver.
-
-
-
-
-
-
-For the first time in months, the owner could walk through the floor, look at each member of the team, and not carry a quiet question about them. That is not a small thing. That is what the work was for.
-
-
-
-
-
-
-
-### Documented Certainty for Leadership and Insurers
-
-
-One of the underappreciated outcomes of a thorough investigation is the paper trail it leaves behind. When findings are documented — methodology, timeline, evidence chain, conclusions — they become assets. Leadership can brief their board with confidence. Insurers can process claims without ambiguity. Legal counsel has a foundation to work from, if it ever comes to that.
-
-
-Certainty, when properly documented, travels. It does not stay in the room where the investigation concluded. It follows the organization forward, reducing exposure and reinforcing the credibility of those who commissioned the work.
-
-
-
-
-### Not Every Investigation Ends With Wrongdoing
-
-
-This case is a reminder that the purpose of an investigation is not to find guilt — it is to find truth. When the evidence points toward an operational failure rather than deliberate theft, that conclusion deserves the same rigor and the same respect as any other finding.
-
-
-Clearing individuals who were suspected but uninvolved is not a failed investigation. It is the system working correctly. The value of business intelligence consulting lies precisely in this: the willingness to follow the evidence wherever it leads, and to report it without bias toward any predetermined outcome.
-
-
-
-
-
-
-
-
-
-
-
-
-## Ready to Protect What You've Built?
-
-
-Every engagement begins with a confidential consultation. If this case study reflects a challenge your organization faces—whether in retail, distribution, or operations—P.R.D.S can design a targeted assessment to surface the risks before they compound. Discreet, strategic, and built around your specific exposure.
-
-
-
-Request a Consultation
-Explore Our Services
-
-
 
 
 
