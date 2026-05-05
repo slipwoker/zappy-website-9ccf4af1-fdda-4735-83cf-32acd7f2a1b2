@@ -1572,11 +1572,88 @@ html[dir="rtl"] body {
 <div class="privacy-consent" style="color: var(--text-dark, #333)">
   <label class="privacy-consent-label">
     <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
-    <span><span data-i18n="contact_text_40_0">I have read and agree to the</span> <a href="/terms" target="_blank" data-i18n="contact_link_26">Terms &amp; Conditions</a> <span data-i18n="contact_text_40_1">and</span> <a href="/privacy" target="_blank" data-i18n="contact_link_27">Privacy Policy</a></span>
+    <span><span><span data-i18n="new_text_89_0">I have read and agree to the</span></span> <a href="/terms" target="_blank" data-i18n="contact_link_26">Terms &amp; Conditions</a> <span><span data-i18n="new_text_89_1">and</span></span> <a href="/privacy" target="_blank" data-i18n="contact_link_27">Privacy Policy</a></span>
   </label>
 </div>
 <script data-privacy-consent-validation="">(function(){if(window._zpcv)return;window._zpcv=1;var _l=document.documentElement.lang||"";var isHe=_l==="he"||(_l!=="ar"&&document.documentElement.dir==="rtl");var isAr=_l==="ar";var valMsg=isHe?"יש לאשר את תנאי השימוש ומדיניות הפרטיות":isAr?"يرجى الموافقة على الشروط والأحكام وسياسة الخصوصية":"Please accept the Terms & Conditions and Privacy Policy";var cbs=document.querySelectorAll(".privacy-consent-checkbox");cbs.forEach(function(cb){cb.setCustomValidity(cb.checked?"":valMsg);cb.addEventListener("change",function(){cb.setCustomValidity(cb.checked?"":valMsg)})});document.addEventListener("submit",function(e){var f=e.target;if(!f||f.tagName!=="FORM")return;var cb=f.querySelector(".privacy-consent-checkbox");if(!cb||cb.checked)return;e.preventDefault();e.stopImmediatePropagation();if(typeof window.zappyNotify==="function"){window.zappyNotify(valMsg,"error")}else if(typeof window.showNotification==="function"){window.showNotification(valMsg,"error")}else{var ex=document.querySelectorAll(".zappy-privacy-error");ex.forEach(function(el){el.remove()});var n=document.createElement("div");n.className="zappy-privacy-error";n.style.cssText="position:fixed;top:20px;right:20px;max-width:400px;padding:14px 18px;background:#f8d7da;color:#721c24;border:1px solid #f5c6cb;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:10000;font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:14px";n.textContent=valMsg;document.body.appendChild(n);setTimeout(function(){if(n.parentElement)n.remove()},6000)}cb.focus()},true)})();</script>
 <button type="submit" class="contact-contact-submit-btn" data-i18n="contact_btn_35">Submit inquiry</button>
+<script>
+(function() {
+  document.addEventListener('DOMContentLoaded', function() {
+    var form = document.querySelector('.contact-form');
+    if (!form) return;
+
+    // Track form field interactions (engagement events)
+    var fields = form.querySelectorAll('input, textarea');
+    var engagedFields = {};
+    fields.forEach(function(field) {
+      field.addEventListener('focus', function() {
+        if (!engagedFields[field.name]) {
+          engagedFields[field.name] = true;
+          if (typeof gtag === 'function') {
+            gtag('event', 'form_field_focus', {
+              'event_category': 'Contact Form',
+              'event_label': field.name || field.id,
+              'form_id': 'prds_contact_form'
+            });
+          }
+        }
+      });
+    });
+
+    // Track form submission attempt
+    form.addEventListener('submit', function(e) {
+      var name = form.querySelector('#contact-name') ? form.querySelector('#contact-name').value.trim() : '';
+      var email = form.querySelector('#contact-email') ? form.querySelector('#contact-email').value.trim() : '';
+      var phone = form.querySelector('#contact-phone') ? form.querySelector('#contact-phone').value.trim() : '';
+      var message = form.querySelector('#contact-message') ? form.querySelector('#contact-message').value.trim() : '';
+      var consentChecked = form.querySelector('.privacy-consent-checkbox') ? form.querySelector('.privacy-consent-checkbox').checked : true;
+
+      // Track the submission attempt
+      if (typeof gtag === 'function') {
+        gtag('event', 'form_submit_attempt', {
+          'event_category': 'Contact Form',
+          'event_label': 'PRDS Contact Form',
+          'form_id': 'prds_contact_form',
+          'has_phone': phone.length > 0 ? 'yes' : 'no',
+          'consent_given': consentChecked ? 'yes' : 'no'
+        });
+      }
+
+      // If form is valid and consent is given, track as a successful lead
+      if (name && email && message && consentChecked) {
+        if (typeof gtag === 'function') {
+          gtag('event', 'generate_lead', {
+            'event_category': 'Contact Form',
+            'event_label': 'PRDS Contact Form Submission',
+            'form_id': 'prds_contact_form',
+            'value': 1,
+            'currency': 'USD'
+          });
+
+          gtag('event', 'contact_form_submit', {
+            'event_category': 'Contact Form',
+            'event_label': 'PRDS Contact Form',
+            'form_id': 'prds_contact_form',
+            'method': 'web_form'
+          });
+        }
+
+        // Also push to dataLayer for GTM
+        if (window.dataLayer) {
+          window.dataLayer.push({
+            'event': 'contact_form_success',
+            'formId': 'prds_contact_form',
+            'formName': 'PRDS Contact Form',
+            'userEmail': email,
+            'hasPhone': phone.length > 0
+          });
+        }
+      }
+    });
+  });
+})();
+</script>
         
         <p class="contact-contact-response-note" data-i18n="contact_p_16">
           All inquiries are handled with complete discretion. You can expect a response within one business day. For urgent matters, please call directly.
@@ -1691,6 +1768,8 @@ html[dir="rtl"] body {
   </a>
   
   <div data-integration="accessibility:toolbar"></div>
+
+
 
 <!-- i18next Multi-Language Support -->
 <script>
@@ -2070,8 +2149,8 @@ html[dir="rtl"] body {
       "contact_li_41": "Services",
       "contact_li_42": "Methodology",
       "contact_li_43": "Contact",
-      "contact_li_44": "info@prdsbi.com",
-      "contact_li_45": "Israel, United States",
+      "contact_li_44": "<i class=\"fas fa-envelope\" data-element-type=\"icon\" data-element-id=\"icon-1774853663529-qq60fsk62\" data-icon-type=\"fontawesome\" style=\"cursor: pointer;\"></i>\n            <a href=\"mailto:info@prdsbi.com\">info@prdsbi.com</a>",
+      "contact_li_45": "<a href=\"/\"><i class=\"fas fa-map-marker-alt\" data-element-type=\"icon\" data-element-id=\"icon-1774853663529-rlfdtekol\" data-icon-type=\"fontawesome\" style=\"cursor: pointer;\"></i>\n            <span>Israel, United States</span></a>",
       "privacy_h3_10": "Quick Links",
       "privacy_h3_11": "Contact Us",
       "privacy_h3_12": "Connect With Us",
@@ -2184,14 +2263,14 @@ html[dir="rtl"] body {
       "services_li_63": "info@prdsbi.com",
       "services_li_64": "Israel, United States",
       "contact_link_25": "info@prdsbi.com",
-      "contact_link_26": "Terms & Conditions",
+      "contact_link_26": "Terms &amp; Conditions",
       "contact_link_27": "Privacy Policy",
       "contact_link_28": "Send a message",
       "contact_link_29": "Services",
       "contact_link_30": "Methodology",
       "contact_link_31": "Contact",
       "contact_link_32": "info@prdsbi.com",
-      "contact_link_33": "Israel, United States",
+      "contact_link_33": "<i class=\"fas fa-map-marker-alt\" data-element-type=\"icon\" data-element-id=\"icon-1774853663529-rlfdtekol\" data-icon-type=\"fontawesome\" style=\"cursor: pointer;\"></i>\n            <span>Israel, United States</span>",
       "contact_link_34": "Generated by Zappy",
       "home_page_title": "P.R.D.S - Business Intelligence",
       "legal_text_40_0": "Email: ",
@@ -2667,7 +2746,9 @@ html[dir="rtl"] body {
       "contact_seo_twitter_description": "Ready to protect your business from internal risks? Contact P.R.D.S - Buisness Intelligence for discreet, high-level human risk consulting tailored to your sensitive hiring needs.",
       "services_seo_twitter_description": "Beyond background checks: OSINT verification, behavioral analysis, and strategic interviewing to protect your business from costly hiring mistakes and fraud.",
       "methodology_seo_twitter_description": "Discover our proven methodology combining advanced open-source intelligence, psychological profiling, and strategic interviews to uncover hidden risks.",
-      "case_studies_seo_twitter_description": "P.R.D.S - Business Intelligence - Case Studies"
+      "case_studies_seo_twitter_description": "P.R.D.S - Business Intelligence - Case Studies",
+      "new_text_89_0": "<input type=\"checkbox\" name=\"privacy_consent\" class=\"privacy-consent-checkbox\" required />\n    <span><span>I have read and agree to the</span> <a href=\"/terms\" target=\"_blank\">",
+      "new_text_89_1": "</a> <span>and</span> <a href=\"/privacy\" target=\"_blank\">"
     }
   },
   "he": {
@@ -3638,7 +3719,9 @@ html[dir="rtl"] body {
       "contact_seo_twitter_description": "מוכנים להגן על העסק שלכם מפני סיכונים פנימיים? צרו קשר עם P.R.D.S - Business Intelligence לייעוץ דיסקרטי ברמה גבוהה בניהול סיכוני כוח אדם המותאם לצרכי הגיוס הרגישים שלכם.",
       "services_seo_twitter_description": "מעבר לבדיקות רקע: אימות OSINT, ניתוח התנהגותי וראיונות אסטרטגיים להגנה על העסק שלכם מטעויות גיוס יקרות והונאות.",
       "methodology_seo_twitter_description": "גלו את המתודולוגיה המוכחת שלנו המשלבת מודיעין מקורות פתוחים מתקדם, פרופיל פסיכולוגי וראיונות אסטרטגיים לחשיפת סיכונים נסתרים.",
-      "case_studies_seo_twitter_description": "P.R.D.S - מודיעין עסקי - מקרי בוחן"
+      "case_studies_seo_twitter_description": "P.R.D.S - מודיעין עסקי - מקרי בוחן",
+      "new_text_89_0": "I have read and agree to the",
+      "new_text_89_1": "and"
     }
   }
 };
