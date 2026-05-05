@@ -237,7 +237,7 @@ Structured interviewing with trained analysis to assess integrity, motivations, 
 ### Deep interview uncovered what background checks missed
 
 
-A financial services firm engaged P.R.D.S to assess a senior candidate for a CFO role. The standard background check returned clean results. During a structured deep interview, our analysts identified significant inconsistencies in the candidate's account of a previous role, evasive response patterns around a specific employment gap, and undisclosed involvement in a company that had faced regulatory sanctions. The firm declined the hire—a decision that later proved critical when the candidate's regulatory history became public in an unrelated proceeding.
+A financial services firm engaged P.R.D.S to assess a senior candidate for a CFO role. The standard background check returned clean results. During a structured deep interview, our analysts identified significant inconsistencies in the candidate's account of a previous role, evasive response patterns around a specific employment gap, and undisclosed past involvement in a company that was shut down by regulators. The firm declined the hire—a decision that later proved critical when the candidate's regulatory history became public in an unrelated proceeding.
 
 
 
