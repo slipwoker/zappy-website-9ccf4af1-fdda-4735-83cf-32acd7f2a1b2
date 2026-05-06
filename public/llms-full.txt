@@ -6,12 +6,12 @@ Source: https://prdsbi.com
 
 ---
 
-## Prevent Insider Threats Before They Strike — P.R.D.S
+## פרד"ס חקירות — משרד חקירות פרטי מורשה
 
 URL: https://prdsbi.com
-Description: P.R.D.S delivers Israeli-grade human risk consulting for U.S. businesses. Stop fraud, theft, and bad hires with advanced OSINT and behavioral intelligence.
+Description: שירותי חקירה פרטית: מעקבים, איתור אנשים, חקירות נאמנות ועסקיות. חוקרים מורשים, סודיות מוחלטת, ראיות קבילות בבית משפט. ייעוץ ראשוני חינם.
 
-P.R.D.S - Business Intelligence
+פרד"ס חקירות — משרד חקירות פרטי מורשה
 
 
 
@@ -355,7 +355,7 @@ Contact
 MW
 
 
-Marcus W.
+מיכל ל.
 לקוחה פרטית, תל אביב
 
 
@@ -385,7 +385,7 @@ Marcus W.
 SR
 
 
-Sophia R.
+דני כ.
 מנכ"ל חברת ייבוא, חיפה
 
 
@@ -410,7 +410,7 @@ Sophia R.
 JA
 
 
-James A.
+רחל ו.
 אם לב דואגת, ירושלים
 
 
