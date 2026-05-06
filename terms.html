@@ -3563,9 +3563,18 @@ html[dir="rtl"] body {
         }
       }
 
-      // Pure text element (or wrapper like <font>text</font>) — use innerHTML
-      // when the translation or existing markup contains line breaks / inline
-      // formatting so <br> and inline tags survive the swap.
+      // Carry over inline formatting from the source element when the translation
+      // is plain text. E.g., source: <font color="#fff">Hebrew</font>,
+      // translation: "English" → wrap as <font color="#fff">English</font>.
+      var fontChild = el.querySelector('font[color], font[face], font[size]');
+      if (fontChild && !inlineFormatPattern.test(translation)) {
+        var fontTag = '<font';
+        for (var ai = 0; ai < fontChild.attributes.length; ai++) {
+          fontTag += ' ' + fontChild.attributes[ai].name + '="' + fontChild.attributes[ai].value.replace(/"/g, '&quot;') + '"';
+        }
+        translation = fontTag + '>' + translation + '</font>';
+      }
+
       var hasNewlines = translation.indexOf(newlineChar) !== -1;
       var hasInlineFormat = inlineFormatPattern.test(translation);
       var hasEntities = /&[a-zA-Z]+;|&#\d+;|&#x[0-9a-fA-F]+;/.test(translation);
@@ -3586,7 +3595,7 @@ html[dir="rtl"] body {
         el.setAttribute('placeholder', translation);
       }
     });
-    
+
     // Update alt attributes
     document.querySelectorAll('[data-i18n-alt]').forEach(function(el) {
       const key = el.getAttribute('data-i18n-alt');
@@ -3595,7 +3604,7 @@ html[dir="rtl"] body {
         el.setAttribute('alt', translation);
       }
     });
-    
+
     // Update title attributes
     document.querySelectorAll('[data-i18n-title]').forEach(function(el) {
       const key = el.getAttribute('data-i18n-title');
@@ -3604,7 +3613,7 @@ html[dir="rtl"] body {
         el.setAttribute('title', translation);
       }
     });
-    
+
     // Update meta description / og:* / twitter:* / keywords / author
     document.querySelectorAll('[data-i18n-content]').forEach(function(el) {
       const key = el.getAttribute('data-i18n-content');
