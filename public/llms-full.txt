@@ -125,10 +125,10 @@ Contact
 
 
 
-## What פרד"ס חקירות delivers.
+## השירותים שלנו
 
 
-Strategic advisory services designed to prevent internal threats, verify trust before commitment, and protect your organization from risk that standard background checks miss.
+שירותי חקירה פרטית מקצועיים — מעקבים, איתור אנשים, חקירות נאמנות, תאונות דרכים ועוד. כל חקירה מבוצעת בסודיות מלאה על ידי חוקרים מוסמכים ומורשים.
 
 
 
@@ -138,18 +138,18 @@ Strategic advisory services designed to prevent internal threats, verify trust b
 
 
 
-### Pre-Role Risk Assessment
+### מעקב ותצפית
 
 
 
-Deep OSINT analysis combined with behavioral profiling to build an integrity risk profile before a candidate enters a sensitive role.
+מעקב מקצועי אחר אנשים ורכבים — לצורכי חקירות נאמנות, הוכחת הונאה, או איסוף ראיות לבית משפט. עם ציוד מתקדם וחוקרים מנוסים.
 
 
-- Digital footprint & public records verification
+- מעקב רגלי ורכבי
 
-- Behavioral risk indicators and red flag analysis
+- תיעוד צילומי וסרטוני
 
-- Executive decision memo with hiring guidance
+- דוח חקירה מפורט לבית משפט
 
 
 
@@ -159,18 +159,18 @@ Deep OSINT analysis combined with behavioral profiling to build an integrity ris
 
 
 
-### Partnership & Investor Vetting
+### חקירות נאמנות
 
 
 
-Trust verification before capital or strategic access changes hands. Protect your business from bad actors posing as partners or investors.
+חשד לבגידה או הפרת נאמנות? אנו מספקים ראיות אמינות ומהימנות לצורכי גירושין, סכסוכים משפטיים ושמירת זכויות.
 
 
-- Financial history & litigation review
+- תיעוד ביקורים וקשרים חשודים
 
-- Reputation verification across networks
+- איסוף ראיות קבילות בבית משפט
 
-- Risk assessment report with go/no-go recommendation
+- דוח מסכם חסוי ומפורט
 
 
 
@@ -180,18 +180,18 @@ Trust verification before capital or strategic access changes hands. Protect you
 
 
 
-### Insider Threat Advisory
+### איתור אנשים נעדרים
 
 
 
-Identify risk signals within your existing team, review access protocols, and implement a prevention plan to mitigate internal theft or fraud.
+איתור אנשים שנעלמו — בני משפחה, חייבים, עדים או שותפים עסקיים. שירות מהיר, שיטתי ודיסקרטי עם שיעור הצלחה גבוה.
 
 
-- Access audit & privilege review
+- חיפוש ממוקד בבסיסי נתונים
 
-- Behavioral anomaly detection framework
+- עבודת שטח ומעקב מיידי
 
-- Prevention protocol with monitoring guidelines
+- דיווח תוצאות תוך 48 שעות
 
 
 
@@ -201,18 +201,18 @@ Identify risk signals within your existing team, review access protocols, and im
 
 
 
-### Strategic Interview & Behavioral Readout
+### חקירות עסקיות ותאגידיות
 
 
 
-Structured interviewing with trained analysis to assess integrity, motivations, and reliability. Delivered as a concise behavioral readout with decision guidance.
+חקירת עובדים, הונאות עסקיות, גניבות מהמעסיק, ריגול תעשייתי וחקירת רקע מעמיקה לפני שותפויות עסקיות.
 
 
-- Behavioral interview protocol execution
+- חקירת עובדים וגניבות פנים-ארגוניות
 
-- Micro-expression & response pattern analysis
+- בדיקת רקע מעמיקה לשותפים ועובדים
 
-- Decision memo with trust score and recommendations
+- חקירת ריגול תעשייתי ודליפת מידע
 
 
 
