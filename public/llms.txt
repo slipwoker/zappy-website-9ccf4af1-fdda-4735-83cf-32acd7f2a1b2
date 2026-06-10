@@ -7,37 +7,37 @@
 ## Pages
 
 ### Home
-https://prdsbi.com
+https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com
 P.R.D.S delivers Israeli-grade human risk consulting for U.S. businesses. Stop fraud, theft, and bad hires with advanced OSINT and behavioral intelligence.
 
 ### Services
-https://prdsbi.com/services
+https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/services
 Beyond background checks: OSINT verification, behavioral analysis, and strategic interviewing to protect your business from costly hiring mistakes and fraud.
 
 ### Methodology
-https://prdsbi.com/methodology
+https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/methodology
 Discover our proven methodology combining advanced open-source intelligence, psychological profiling, and strategic interviews to uncover hidden risks.
 
 ### Contact
-https://prdsbi.com/contact
+https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/contact
 Ready to protect your business from internal risks? Contact P.R.D.S for discreet, high-level human risk consulting tailored to your sensitive hiring needs.
 
 ### Case Studies
-https://prdsbi.com/case-studies
+https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/case-studies
 P.R.D.S - Business Intelligence - Case Studies
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://prdsbi.com/privacy
+https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://prdsbi.com/terms
+https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://prdsbi.com/accessibility
+https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -50,8 +50,8 @@ Information about WCAG compliance and accessibility features.
 - Address: Israel
 
 ### Contact form
-- URL: https://prdsbi.com/contact
-- Endpoint: https://prdsbi.com/api/email/contact-form
+- URL: https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/contact
+- Endpoint: https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -78,6 +78,6 @@ Business Intelligence & Risk Consulting
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://prdsbi.com/sitemap.xml
-- Robots: https://prdsbi.com/robots.txt
-- Flattened page text (for LLMs): https://prdsbi.com/llms-full.txt
+- Sitemap (XML): https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/sitemap.xml
+- Robots: https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/robots.txt
+- Flattened page text (for LLMs): https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/llms-full.txt
