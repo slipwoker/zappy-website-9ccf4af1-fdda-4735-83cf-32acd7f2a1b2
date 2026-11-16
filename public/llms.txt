@@ -50,7 +50,7 @@ Information about WCAG compliance and accessibility features.
 - Address: Israel
 
 ### Contact form
-- URL: https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/contact
+- URL: https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com
 - Endpoint: https://zappy-site-9ccf4af1-fdda-4735-83cf.onrender.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
@@ -58,8 +58,8 @@ Information about WCAG compliance and accessibility features.
   - `name` (text, required)
   - `email` (email, required)
   - `phone` (tel)
+  - `company` (text)
   - `message` (textarea, required)
-  - `privacy_consent` (checkbox, required)
 
 ---
 
